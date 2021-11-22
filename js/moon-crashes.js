@@ -161,7 +161,7 @@ function RadialScatter() {
 						Math.sin(xScale(d * 25))
 					})`
 			)
-			.attr("href", (d) => `../assets/phase/${d + 1}.jpg`);
+			.attr("href", (d) => `./assets/phase/${d + 1}.jpg`);
 	};
 
 	// this._addTooltip = function (circles, data, aScale) {
